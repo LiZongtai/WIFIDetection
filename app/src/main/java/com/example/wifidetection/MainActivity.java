@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent DetectionPage=new Intent(MainActivity.this, DetectionActivity.class);
+                Intent DetectionPage=new Intent(MainActivity.this, DetectActivity.class);
                 startActivity(DetectionPage);
             }
         });
